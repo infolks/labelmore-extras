@@ -1,0 +1,32 @@
+{
+  "name": "@infolks/labelmore-extras",
+  "version": "1.0.0",
+  "description": "LabelMore plugins providing some xtra features",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infolks/labelmore-extras.git"
+  },
+  "keywords": [
+    "labelmore",
+    "plugin",
+    "extras"
+  ],
+  "author": "infolks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infolks/labelmore-extras/issues"
+  },
+  "homepage": "https://github.com/infolks/labelmore-extras#readme",
+  "dependencies": {
+    "@infolks/labelmore-devkit": "^1.1.17"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.1"
+  }
+}
