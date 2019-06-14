@@ -9,10 +9,6 @@ class GistEncoder extends Encoder {
     public readonly icon = `<img src="data:image/svg+xml;base64,${IMAGE_DATA}"/>`
     public readonly name = 'encoders.extras.gist'
 
-    constructor() {
-        super()
-    }
-
     /**
      * Encode a frame
      * @param frame frame to encode
