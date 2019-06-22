@@ -1,6 +1,6 @@
 {
   "name": "@infolks/labelmore-extras",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "LabelMore plugins providing some xtra features",
   "main": "dist/index.js",
   "scripts": {
