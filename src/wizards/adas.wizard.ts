@@ -13,6 +13,7 @@ class AdasWizard extends Wizard {
         allowOutputSelection: true,
         allowPanelSelection: true,
         allowLabelClassCreation: true,
+        allowKeypointCreation: false,
         allowClassAttributeCreation: true,
         allowSceneAttributeCreation: true,
     };
@@ -37,7 +38,7 @@ class AdasWizard extends Wizard {
         );
 
         files = files.filter((file, index) => compatible[index])
-        
+
         return {
             type: this.name,
             title,
