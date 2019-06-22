@@ -1,5 +1,5 @@
 /*!
- * @infolks/labelmore-extras v1.1.0
+ * @infolks/labelmore-extras v1.2.0
  * (c) infolks
  * Released under the ISC License.
  */
@@ -241,6 +241,7 @@ class AdasWizard extends labelmoreDevkit.Wizard {
             allowOutputSelection: true,
             allowPanelSelection: true,
             allowLabelClassCreation: true,
+            allowKeypointCreation: false,
             allowClassAttributeCreation: true,
             allowSceneAttributeCreation: true,
         };
