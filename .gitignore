@@ -48,6 +48,9 @@ typings/
 # Optional REPL history
 .node_repl_history
 
+# roll up cache
+.rpt2_cache
+
 # Output of 'npm pack'
 *.tgz
 
